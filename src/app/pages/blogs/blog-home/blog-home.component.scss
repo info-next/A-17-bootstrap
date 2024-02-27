@@ -254,40 +254,7 @@
 	}
 }
 
-// Pagination
-ul.pagination{
-	margin-top: 30px;
-	margin-bottom: 30px;
-  li{
-    margin-right: 10px;
-    a{
-      font-size: 16px;
-      padding: 0;
-      height: 50px;
-      width: 50px;
-      line-height: 50px;
-      text-align: center;
-      border-color: transparent;
-      color: $text-color;
-      border: 1px solid $border-color;
-      border-radius: 0 !important;
-      &:hover, &:focus{
-      	background-color: $primary-color !important;
-        color: $light !important; 
-        border-color: $primary-color !important;
-        @extend .shadow;
-      }
-    }
-  }
-  .active{
-    a{
-        background-color: $primary-color !important;
-        color: $light !important; 
-        border-color: $primary-color !important;
-        @extend .shadow;
-    }
-  }
-}
+
 .sidebar{
 	padding: 0 20px;
 }
@@ -359,35 +326,7 @@ ul.pagination{
 			}
 		}
 	}
-	&.latest-post{
-		.media{
-			padding: 15px 0;
-			&:not(:last-child){
-				border-bottom: 1px solid $border-color;
-			}
-			img{
-				margin-right: 15px;
-			}
-			.media-body{
-				h6{
-					a{
-						font-size: 15px;
-						color: $black;
-						line-height: 1;
-						font-weight: 400;
-						&:hover{
-							color: $primary-color;
-						}
-					}
-				}
-				p{
-					span{
-						margin-right: 10px;
-					}
-				}
-			}
-		}
-	}
+
 }
 
 .news-hr{
