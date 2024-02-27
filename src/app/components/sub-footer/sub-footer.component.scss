@@ -1,0 +1,35 @@
+@import '_variables';
+@import '_media-queries';
+.subfooter{
+	background: #2a2a37;
+	padding: 18px 0;
+	.copyright-text{
+		p{
+			font-family: $secondary-font;
+			a{
+				color: $primary-color;
+			}
+		}
+		@include tablet {
+			text-align: center;
+		}
+	}
+	.to-top{
+		display: block;
+		height: 45px;
+		width: 45px;
+		text-align: center;
+		background: $primary-color;
+		float: right;
+		i{
+			font-size: 1.5rem;
+			color: $light;
+			line-height: 45px;
+		}
+		@include tablet {
+			float: none;
+			margin: auto;
+			margin-top: 30px;
+		}
+	}
+}
