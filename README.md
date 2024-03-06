@@ -38,7 +38,8 @@ To get started with using this Angular 17 Bootstrap Theme in your project, follo
     ```
     ng s
     ```
-
+    or
+    
     ```
     npm start
     ```
@@ -53,11 +54,11 @@ To get started with using this Angular 17 Bootstrap Theme in your project, follo
 
 ## Documentation
 
-For detailed documentation on how to use and customize this Angular 17 Bootstrap Theme, refer to the [documentation](docs/) directory in this repository.
+For detailed documentation on how to use and customize this Angular 17 Bootstrap Theme, refer to the [documentation](https://angular.io/) directory in this repository.
 
 ## Support and Feedback
 
-If you encounter any issues or have any feedback or suggestions for improvement, please [open an issue](https://github.com/info-next/A-17-bootstrap.git/issues) on this repository. We welcome contributions and are happy to assist with any questions you may have.
+If you encounter any issues or have any feedback or suggestions for improvement, please [open an issue](https://github.com/info-next/A-17-bootstrap.git) on this repository. We welcome contributions and are happy to assist with any questions you may have.
 
 ## License
 
