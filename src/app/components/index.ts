@@ -5,3 +5,5 @@ export *  from './breadcrumb/breadcrumb.component';
 export *  from './main-blog-card/main-blog-card.component';
 export *  from './sub-footer/sub-footer.component';
 export *  from './button-main/button-main.component';
+export *  from './g-map/g-map.component';
+
