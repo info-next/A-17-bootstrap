@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { AboutSectionComponent } from '../about/about-section/about-section.component';
-import { ButtonMainComponent } from '../../components/button-main/button-main.component';
+import { ButtonMainComponent } from '../../components';
 
 @Component({
   selector: 'app-home',

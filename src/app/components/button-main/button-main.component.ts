@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-
 @Component({
   selector: 'button-main',
   standalone: true,
@@ -9,6 +8,6 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonMainComponent {
 @Input() btnName: string = '';
-@Input() btnType: string = '';
+@Input() btnType !: 'light' | 'transparent' | 'primary';
 
 }

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { BlogCardComponent } from '../../../components/blog-card/blog-card.component';
-import { MainBlogCardComponent } from '../../../components/main-blog-card/main-blog-card.component';
+import { BlogCardComponent, MainBlogCardComponent } from '../../../components';
+
 
 @Component({
   selector: 'app-blog-home',

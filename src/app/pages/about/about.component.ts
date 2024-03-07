@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { BreadcrumbComponent } from '../../components/breadcrumb/breadcrumb.component';
 import { AboutSectionComponent } from './about-section/about-section.component';
+import { BreadcrumbComponent } from '../../components';
 
 @Component({
   selector: 'app-about',

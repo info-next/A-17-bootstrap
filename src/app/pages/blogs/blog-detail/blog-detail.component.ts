@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BlogCardComponent } from '../../../components/blog-card/blog-card.component';
+import { BlogCardComponent } from '../../../components';
 
 @Component({
   selector: 'app-blog-detail',

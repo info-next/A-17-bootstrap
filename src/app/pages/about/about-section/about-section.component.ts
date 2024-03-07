@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ButtonMainComponent } from '../../../components/button-main/button-main.component';
+import { ButtonMainComponent } from '../../../components';
 
 @Component({
   selector: 'about-section',

@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-
 @Component({
   selector: 'sub-footer',
   standalone: true,
@@ -9,5 +8,4 @@ import { RouterModule } from '@angular/router';
   styleUrl: './sub-footer.component.scss'
 })
 export class SubFooterComponent {
-
 }

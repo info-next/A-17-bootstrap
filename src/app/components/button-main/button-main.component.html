@@ -1,2 +1,8 @@
-<a class="btn btn-white-md">{{btnName}}</a>
+<a 
+[class.btn-white-md]="btnType === 'light'"
+[class.btn-transparent-md]="btnType === 'transparent'"
+[class.btn-main-md]="btnType === 'primary'"
+>
+{{btnName}}
+</a>
 
